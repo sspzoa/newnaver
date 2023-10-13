@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar {
+    width: 100%;
+    max-width: 560px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    gap: 15px;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s ease;
+    z-index: 10;
+}
+
+.searchBar a {
+    width: 20px;
+    height: 20px;
+}
+
+.searchBar form {
+    width: 100%;
+}
+
+.searchBar input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 15px 0;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: white;
+    transition: color 0.1s ease;
+}
+
+.searchBar input::placeholder {
+    color: white;
+    transition: color 0.1s ease;
+}
+
+.searchBar:focus-within input::placeholder {
+    color: grey;
+}
+
+.searchBar:focus-within {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.searchBar svg path {
+    transition: fill 0.1s ease;
+}
+
+.searchBar:focus-within svg path {
+    fill: #03C75B;
+}
+
+.searchBar input:focus {
+    outline: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .searchBar {
+        max-width: 460px;
+    }
+}

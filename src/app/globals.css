@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-image: url("/newtab_whalefriend.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+a {
+    display: inline-block; /* 또는 'inline-block', 'block' 등 원하는 값을 설정 */
+}
