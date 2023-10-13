@@ -19,7 +19,7 @@
     box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
     transition: background-color 0.1s ease;
     z-index: 10;
-    margin-bottom: 5rem;
+    margin-bottom: 10%;
 }
 
 .searchBar a {
@@ -71,6 +71,6 @@
 @media (max-width: 768px) {
     .searchBar {
         max-width: 90%;
-        margin-bottom: 10rem;
+        margin-bottom: 20%;
     }
 }
