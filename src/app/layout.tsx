@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <link rel='icon' href='/favicon.png'/>
+      <link rel='icon' href='/src/app/favicon.ico'/>
       <meta name="theme-color" content="#125082"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="#125082"/>
     </head>
