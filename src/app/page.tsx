@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         e.preventDefault();
 
         // Save the searchTerm to the database
-        fetch('//ec2-3-39-126-15.ap-northeast-2.compute.amazonaws.com:1323/save-search', {
+        fetch('http://ec2-3-39-126-15.ap-northeast-2.compute.amazonaws.com:1323/save-search', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
