@@ -20,7 +20,6 @@ export default function RootLayout({
       <link rel='icon' href='/src/app/favicon.ico'/>
       <meta name="theme-color" content="#125082"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="#125082"/>
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     </head>
       <body className={inter.className}>{children}</body>
     </html>
